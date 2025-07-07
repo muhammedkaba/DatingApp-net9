@@ -11,7 +11,7 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^19.2.14",
-    "@angular/cdk": "^20.0.4",
+    "@angular/cdk": "^19.2.14",
     "@angular/common": "^19.0.0",
     "@angular/compiler": "^19.0.0",
     "@angular/core": "^19.0.0",
@@ -23,6 +23,7 @@
     "font-awesome": "^4.7.0",
     "ng-gallery": "^11.0.0",
     "ngx-bootstrap": "^19.0.2",
+    "ngx-spinner": "^19.0.0",
     "ngx-toastr": "^19.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -40,18 +41,5 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.8.2"
-  },
-  "overrides": {
-    "ngx-bootstrap": {
-      "@angular/common": "@angular/common",
-      "@angular/core": "@angular/core",
-      "@angular/animations": "@angular/animations",
-      "@angular/forms": "@angular/forms",
-      "rxjs": "rxjs"
-    },
-    "ng-gallery": {
-      "@angular/common": "$@angular/common",
-      "@angular/core": "$@angular/core"
-    }
   }
 }
